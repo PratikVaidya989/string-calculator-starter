@@ -47,6 +47,8 @@ class StringCalculatorShould {
 			 assertEquals("negatives not allowed [-1, -2]", e.getMessage());
 		} 
 	}
+	
+	
 	@Test
 	public void validateCallCount(){
 		assertEquals(calculator.getCallCount(), calculator.count);
